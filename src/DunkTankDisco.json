@@ -1,0 +1,33 @@
+{
+    "name": "Prepare for Battle",
+    "imageUrl": "https://gtrgit.github.io/dcl_image_store/images/DunkTankDisco.png",
+    "definition": {
+      "steps": [
+        {
+          "id": "prepare-for",
+          "description": "Prepare for the Battle",
+          "tasks": [
+            {
+              "id": "pick-up-armor",
+              "description": "Pick up the armor",
+              "actionItems": [
+                {
+                  "type": "CUSTOM",
+                  "parameters": {
+                    "kind": "PickUp",
+                    "id": "armor"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "connections": [
+        {
+          "stepFrom": "prepare-for"
+         
+        }
+      ]
+    }
+  }
