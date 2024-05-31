@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SDK7 Template scene
 
 ## Try it out
@@ -263,3 +264,7 @@ To fetch the mutable version of a component, call it via `ComponentDefinition.ge
 ```ts
 const mutableTransform = Transform.getMutable(myEntity)
 ```
+=======
+# DunkTankDisco
+Hit the Target and Dunk the Disco Dancers
+>>>>>>> 3156d0efbe12f6a2a7e75e13489780c4550a5efa
